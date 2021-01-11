@@ -1,0 +1,50 @@
+.professor-cards {
+  margin: 0;
+  padding: 0;
+}
+.search-overlay .professor-card {
+    padding-top: 21px;
+  }
+
+.professor-card {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  margin-right: 15px;
+  background-color:  #0b146a;
+  overflow: hidden;
+}
+  .search-overlay .professor-card {
+    width: 100%;
+  }
+
+  .professor-card__image {
+    display: block;
+    transition: opacity .3s ease-out, transform .3s ease-out;
+  }
+
+  .professor-card:hover .professor-card__image {
+    opacity: .80;
+    transform: scale(1.1) rotate(4deg);
+  }
+
+  .professor-card__name {
+    font-weight: 500;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    left: 0;
+    right: 0;
+    padding: 3px 10px;
+    background-color:rgba(255, 116, 0, 0.8);
+  }
+
+  .professor-card:hover .professor-card__name {
+    background-color: rgba(255, 116, 0, 0.7);
+  }
+
+  .professor-card__list-item {
+    display: inline-block;
+    list-style: none;
+  }

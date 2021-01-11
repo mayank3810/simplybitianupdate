@@ -1,0 +1,187 @@
+:root {
+    --animate-duration: 1.5s;
+  }
+.header-sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: #0b146a !important;
+    z-index: 100;
+
+    animation: fadeInDown;
+    animation-duration: 0.8s;
+}
+
+/* hexagon-logo */
+
+.hex-logo-animation {
+    opacity: 0;
+}
+
+.hex-logo-animation.animate__animated{
+    opacity: 1;
+}
+
+.hex-1{
+    animation-delay: 0s;
+}
+
+.hex-2{
+    animation-delay: 0.2s;
+}
+
+.hex-3{
+    animation-delay: 0.4s;
+}
+
+.hex-4{
+    animation-delay: 0.6s;
+}
+
+/* Upcoming and blog */
+
+.event-summary {
+    opacity: 0;
+
+}
+
+.event-summary-l.animate__animated{
+    opacity: 1;
+}
+
+.event-summary-r.animate__animated{
+    opacity: 1;
+}
+
+.event-summary-1{
+    animation-delay: 0;
+}
+.event-summary-2{
+    animation-delay: 0.2s;
+}
+
+.event-summary-btn{
+    opacity: 0;
+}
+.event-summary-btn.animate__animated{
+    opacity: 1;
+    animation-delay: 1s;
+}
+
+.professor {
+    opacity: 0;
+}
+.professor.animate__animated{
+    opacity: 1;
+}
+
+.professor-1 {
+    animation-delay: 0.1s;
+}
+
+.professor-2{
+    animation-delay: 0.2s;
+}
+
+.professor-3{
+    animation-delay: 0.3s;
+}
+
+.senior-exp {
+    opacity: 0;
+}
+.senior-exp.animate__animated{
+    opacity: 1;
+}
+
+.resource-card{
+    opacity: 0;
+}
+
+.resource-card.animate__animated{
+    opacity: 1;
+}
+
+.resource-card-2{
+    animation-delay: 0.2s;
+}
+.resource-card-3{
+    animation-delay: 0.4s;
+}
+.resource-card-4{
+    animation-delay: 0.6s;
+}
+.resource-card-5{
+    animation-delay: 0.8s;
+}
+.resource-card-6{
+    animation-delay: 1s;
+}
+
+.faq{
+    opacity: 0;
+}
+
+.faq.animate__animated{
+    opacity: 1;
+}
+
+.faq-2{
+    animation-delay: 0.2s;
+}
+.faq-3{
+    animation-delay: 0.3s;
+}
+.faq-4{
+    animation-delay: 0.4s;
+}
+.faq-5{
+    animation-delay: 0.5s;
+}
+
+.drop-question-sec{
+    animation-delay: 1s;
+    opacity: 0;
+}
+.drop-question-sec.animate__animated{
+    opacity: 1;
+}
+
+.contributer{
+    opacity: 0;
+}
+
+.contributer.animate__animated{
+    opacity: 1;
+}
+
+.contributer-2{
+    animation-delay: 0.2s;
+}
+.contributer-3{
+    animation-delay: 0.4s;
+}
+.contributer-4{
+    animation-delay: 0.6s;
+}
+.contributer-5{
+    animation-delay: 0.8s;
+}
+
+
+.contributer-form {
+    opacity: 0;
+}
+
+.contributer-form.animate__animated{
+    opacity: 1;
+}
+
+.contributer-form {
+    opacity: 0;
+}
+
+.contributer-text.animate__animated{
+    opacity: 1;
+}
+
